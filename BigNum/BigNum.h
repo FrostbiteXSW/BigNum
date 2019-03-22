@@ -1,5 +1,4 @@
-#ifndef BIGNUM
-#define BIGNUM
+#pragma once
 
 #include <iostream>
 #include <list>
@@ -56,5 +55,3 @@ public:
 	/* 将此大数转换为等价的字符串表示形式。 */
 	string ToString();
 };
-
-#endif
